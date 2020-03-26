@@ -1,0 +1,100 @@
+.navbar {
+    background-color: red;
+}
+
+li:hover {
+    background-color: yellow;
+    color:white;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: yellow;
+}
+
+.color-home {
+    color:white;
+
+}
+
+.navbar-brand > {
+    width: 250px;
+}
+.blog{
+    color:white;
+}
+.AboutUs{
+    color:white;
+}
+.signUp {
+    color:white;
+}
+.login {
+    color:white;
+}
+
+body {
+    background-color: darkgoldenrod;
+}
+
+.bodyCover {
+    border: 0px solid azure;
+    background-color: azure;
+    border-radius:5px;
+}
+.firstPic {
+    height: 200px;
+    width: 230px;
+}
+.secondPic {
+    height: 200px;
+    width: 202px;
+    
+}
+.thirdPic {
+    height: 200px;
+    width:230px;
+}
+.down {
+    margin-top: 100px;
+}
+
+.moveRight {
+    text-align:center;
+    font-weight: 800;
+    font-size: 50px;
+    border-bottom: 2px red solid;
+}
+.moveLeft {
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 2px red solid;
+}
+table{
+    border: 1px red;
+}
+
+.up {
+    margin-bottom: 50px;
+    padding-left: 55px;
+}
+
+table {
+    margin-top: -53px;
+}
+
+.borderEvery {
+    /* background-color: chocolate; */
+    width: 200px;
+    padding-left: 20px;
+    margin-left: 51px;
+}
+
+.stuWidth {
+    width:258px;
+}
+
+.moveAs {
+    margin-left: 83px;
+}

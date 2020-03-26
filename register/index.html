@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="REALBLOG ICON.png">
+    <title>Sign Up</title>
+</head>
+<body>
+    <!-- <span id="span"></span> -->
+        <nav class="navbar navbar-default">
+                <div class="container">
+                <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img width="180" src="real img.png"></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li ><a href="../home/index.html"><b class="color-home">Home</b></a></li>
+          <li><a href="../blog/index.html"><b class="blog">Blog</b></a></li>
+          <li><a href="../About us/index.html"><b class="AboutUs">About Us</b></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html"><b class="signUp">Sign Up</b></i></a></li>
+          <li><a href="../login/index.html"><b class="login">Login</b></i> </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </div>
+  </nav>
+  <span id="AfterReg">
+  <p class="popUp"></p> 
+  <p class="secondPop"><a class="popUpId" href="#"></a></p> 
+</span>
+    <div class="fillForm">
+    <form>
+        <h1>Create an account</h1>
+        <label id="firstLabel" for="text">Name: </label>
+        <input type="text" required id="firstName">
+        <input type="text" required id="lastName">
+        <span id="first">First Name</span>
+        <span id="last">Last Name</span>
+         <br>
+         <br>
+        <label id="secondLabel" for="email">Email :    </label>
+        <input type="email" required id="email">
+        <br>
+        <br>
+        <br> 
+        <label id="thirdLabel" for="text">Phone :</label>
+        <input type="text" required id="areaCode">
+        <input type="text" required id="phoneNumber">
+        <span id="area">Phone Number</span>
+        <span id="phone">Area Code</span>
+        <br>
+        <br>
+        <br>
+        <label id="fourthLabel" for="text">Username :</label>
+        <input type="text" required id="username">
+        <br>
+        <br>
+        <br>
+        
+        <label id="fifthLabel" for="password">Password :</label>
+        <input type="password" id="password" required>
+        <br>
+        <br>
+        <br> 
+        <button  id="submit" class="btn-success"><a id="btnn" href="index.html">Register</a></button>
+        <span>Already have an account?<a  href="../login/index.html">Log in,&nbsp;</a><a href="../home/index.html">Home</a></span>
+    </form>
+</div>
+</span>
+    <script src="script.js"></script>
+</body>
+</html>

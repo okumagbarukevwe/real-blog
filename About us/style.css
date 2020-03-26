@@ -1,0 +1,40 @@
+.navbar {
+    background-color: red;
+}
+
+li:hover {
+    background-color: yellow;
+    color:white;
+    font-weight: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: yellow;
+}
+
+.color-home {
+    color:white;
+
+}
+
+.navbar-brand > {
+    width: 250px;
+}
+.blog{
+    color:white;
+}
+.AboutUs{
+    color:white;
+}
+.signUp {
+    color:white;
+}
+.login {
+    color:white;
+}
+
+body {
+    background-color: darkgoldenrod;
+}
+
